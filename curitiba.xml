@@ -1,59 +1,104 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<NFSE>
-  <NOTAS>
-    <NOTA>
-      <MESCOMP>07</MESCOMP>
-      <ANOCOMP>2018</ANOCOMP>
-      <INSCRICAO>4971</INSCRICAO>
-      <NRONOTA>1837</NRONOTA>
-      <LOCAL>D</LOCAL>
-      <DEDMATERIAIS>N</DEDMATERIAIS>
-      <DENTROPAIS>S</DENTROPAIS>
-      <OBSERVACAO>Banco Sicoob, AG: 3017, CC: 280199 (Dígito 0 se pedir)</OBSERVACAO>
-      <RETIDO>N</RETIDO>
-      <ATIVIDADE>62.09-1-00 - SUPORTE TÉCNICO, MANUTENÇÃO E OUTROS SERVIÇOS EM TECNOLOGIA DA INFORMAÇÃO</ATIVIDADE>
-      <DATAEMISSAO>19/07/2018 16:19:52</DATAEMISSAO>
-      <SITUACAO>4</SITUACAO>
-      <DEDUCAO>0.0</DEDUCAO>
-      <ISS>41.48</ISS>
-      <RETENCAO>0.0</RETENCAO>
-      <ALIQUOTAAPLICADA>2.79</ALIQUOTAAPLICADA>
-      <RESPONSAVELIMPOSTO>P</RESPONSAVELIMPOSTO>
-      <OPERACAO>SM</OPERACAO>
-      <PRESTADOR>
-        <CPFCNPJ>12.559.469/0001-44</CPFCNPJ>
-        <NOMERAZAO>ROYAL TI  LTDA  -  ME</NOMERAZAO>
-      </PRESTADOR>
-      <TOMADOR>
-        <NATUREZA>J</NATUREZA>
-        <CPFCNPJ>20.364.194/0001-11</CPFCNPJ>
-        <NOMERAZAO>GF AUTOMAÇÃO COMERCIAL LTDA – ME</NOMERAZAO>
-        <NOMEFANTASIA>TEFWAY SERVIÇOS DE COMUNICAÇÃO TEF</NOMEFANTASIA>
-        <CEP>81.630-070</CEP>
-        <PREFIXO>RUA</PREFIXO>
-        <LOGRADOURO>OLIVEIRA VIANA</LOGRADOURO>
-        <BAIRRO>VILA HAUER</BAIRRO>
-        <NUMERO>965</NUMERO>
-        <MUNICIPIO>CURITIBA</MUNICIPIO>
-        <ESTADO>PR</ESTADO>
-      </TOMADOR>
-      <IMPOSTOS>
-        <PIS>0.0</PIS>
-        <COFINS>0.0</COFINS>
-        <INSS>0.0</INSS>
-        <IR>0.0</IR>
-        <CSLL>0.0</CSLL>
-        <OUTRASRETENCOES>0.0</OUTRASRETENCOES>
-      </IMPOSTOS>
-      <SERVICOS>
-        <SERVICO>
-          <SERVDESCRICAO> INTERMEDIAÇÃO COMERCIAL DE TEF</SERVDESCRICAO>
-          <SERVVALORUNIT>1486.65</SERVVALORUNIT>
-          <SERVQUANTIDADE>1.0</SERVQUANTIDADE>
-          <SERVVALORDESCONTO>0.0</SERVVALORDESCONTO>
-        </SERVICO>
-      </SERVICOS>
-      <STATUS>Concluída</STATUS>
-    </NOTA>
-  </NOTAS>
-</NFSE>
+<RecepcionarLoteRps>
+   <EnviarLoteRpsEnvio>
+      <LoteRps Id="580489953">
+         <NumeroLote>580489953</NumeroLote>
+         <Cnpj>22940432000115</Cnpj>
+         <InscricaoMunicipal>7249621</InscricaoMunicipal>
+         <QuantidadeRps>1</QuantidadeRps>
+         <ListaRps>
+            <Rps>
+               <InfRps Id="2">
+                  <IdentificacaoRps>
+                     <Numero>2</Numero>
+                     <Serie>NFSE</Serie>
+                     <Tipo>1</Tipo>
+                  </IdentificacaoRps>
+                  <DataEmissao>2017-08-28T00:00:00</DataEmissao>
+                  <NaturezaOperacao>1</NaturezaOperacao>
+                  <RegimeEspecialTributacao>1</RegimeEspecialTributacao>
+                  <OptanteSimplesNacional>1</OptanteSimplesNacional>
+                  <IncentivadorCultural>2</IncentivadorCultural>
+                  <Status>1</Status>
+                  <Servico>
+                     <Valores>
+                        <ValorServicos>500.00</ValorServicos>
+                        <IssRetido>2</IssRetido>
+                        <BaseCalculo>500.00</BaseCalculo>
+                        <ValorLiquidoNfse>500.00</ValorLiquidoNfse>
+                     </Valores>
+                     <ItemListaServico>1.07</ItemListaServico>
+                     <CodigoTributacaoMunicipio>1.07</CodigoTributacaoMunicipio>
+                     <Discriminacao>INSTALACAO SAGE GESTAO CONTABIL - Qtde 1,00 x Valor Unit. R$ 500,00 = Total R$ 500,00.\r\n\r\n</Discriminacao>
+                     <CodigoMunicipio>4106902</CodigoMunicipio>
+                  </Servico>
+                  <Prestador>
+                     <Cnpj>22940432000115</Cnpj>
+                     <InscricaoMunicipal>7249621</InscricaoMunicipal>
+                  </Prestador>
+                  <Tomador>
+                     <IdentificacaoTomador>
+                        <CpfCnpj>
+                           <Cpf>56171056987</Cpf>
+                        </CpfCnpj>
+                     </IdentificacaoTomador>
+                     <RazaoSocial>DARLEY JENNRICH</RazaoSocial>
+                     <Endereco>
+                        <Endereco>RUA CATHARINA POTINA DE MAURO</Endereco>
+                        <Numero>538</Numero>
+                        <Complemento>CASA A</Complemento>
+                        <Bairro>PILARZINHO</Bairro>
+                        <CodigoMunicipio>4106902</CodigoMunicipio>
+                        <Uf>PR</Uf>
+                        <Cep>82100700</Cep>
+                     </Endereco>
+                     <Contato>
+                        <Telefone>4130151226</Telefone>
+                        <Email>darley.j@terra.com.br</Email>
+                     </Contato>
+                  </Tomador>
+               </InfRps>
+               <Signature>
+                  <SignedInfo>
+                     <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                     <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                     <Reference URI="#2">
+                        <Transforms>
+                           <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                           <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                        </Transforms>
+                        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                        <DigestValue>CFx3lmLfXmiKvdtfM8W7L10PgHg=</DigestValue>
+                     </Reference>
+                  </SignedInfo>
+                  <SignatureValue>DCD9JRtw9nitkkUxHeqfTsDmUyq5Rz7budEDlWx1H+38kI5jg91wzjwU2lryPzMCM9a6247PVgKqvlAaq3JleaYbbDhnI5ZkLI4722ZFEAu/131B1NAMY51WfBGS++zfzVcl9JLnu66N9IOd+uY0VuDtJSQZsVJrw0ZztzPllW64fYqcc5QC0QyHqCP8HOLZDIHMKxMjlnmqtFT4Ez00lYl/LnTQ3EwGRCe7yKNHqSq/JrRSqDFkvPw3uN2UFSo8e6czmlJJAeUxzfBlbMLQoer+OjajdQVdG6f/x1HPtxp8F5YfcV2ncIigx13kdwW9od9qOdRvg7qcovNCTqByUQ==</SignatureValue>
+                  <KeyInfo>
+                     <X509Data>
+                        <X509Certificate>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</X509Certificate>
+                     </X509Data>
+                  </KeyInfo>
+               </Signature>
+            </Rps>
+         </ListaRps>
+      </LoteRps>
+      <Signature>
+         <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="#580489953">
+               <Transforms>
+                  <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                  <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+               </Transforms>
+               <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+               <DigestValue>+51uRJ6WCRkaHsHa2DTrv3rvvIs=</DigestValue>
+            </Reference>
+         </SignedInfo>
+         <SignatureValue>ZieakpYlE2h9b4lKsuCcmGJrNxsBgGkXWaBcx4YMmn93Dih3mX2BPwmMfXMe0RzuS1Inh+rJW3U2+yYwOGsb37l7Y8S48EuKl5XOuNqRJJ10qVQ1FN5XnZutSlemlW+aZc67Sy7rtrx5DywyIw7ckO/AaMuDvqD/HaxDiCVxTwYMCdJgIpTkmFLATXX9H9f/mpH6Ba4Z8s8VL/CLCKi31WZ2Ug0rO2F1cHVe8R+34Lf+4mYxO0CkiV/kH32j1sPnVYwGUx9hU1oAluL9FYm6k23I5TG2G8mK3+7wxu8L4CHSs4fcNoQ07n2o38NhgB3pv25yDFbJjP1vm083qRWnWQ==</SignatureValue>
+         <KeyInfo>
+            <X509Data>
+               <X509Certificate>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</X509Certificate>
+            </X509Data>
+         </KeyInfo>
+      </Signature>
+   </EnviarLoteRpsEnvio>
+</RecepcionarLoteRps>
